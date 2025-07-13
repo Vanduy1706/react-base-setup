@@ -44,7 +44,9 @@ module.exports = {
       filename: "[name].[contenthash].css",
     }),
     new CopyPlugin({
-      patterns: [{ from: "public", to: "." }],
+      patterns: [
+        { from: "public", to: ".", globOptions: { ignore: ["**/index.html"] } },
+      ],
     }),
   ],
 };
