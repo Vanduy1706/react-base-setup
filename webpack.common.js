@@ -45,7 +45,12 @@ module.exports = {
     }),
     new CopyPlugin({
       patterns: [
-        { from: "public", to: ".", globOptions: { ignore: ["**/index.html"] } },
+        {
+          from: "public",
+          to: ".",
+          globOptions: { ignore: ["**/index.html"] },
+          noErrorOnMissing: true,
+        },
       ],
     }),
   ],
