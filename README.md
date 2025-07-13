@@ -20,3 +20,4 @@ npm start
 ## 🏗️ Build for production
 
 npm run build
+# I will update in the future, maybe regarding package versions, etc.
