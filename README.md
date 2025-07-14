@@ -8,6 +8,7 @@
 
 1. git clone https://github.com/Vanduy1706/react-base-setup.git
 2. cd react-base-setup
+3. rm -rf .git
 
 ### 2. Install dependencies
 
